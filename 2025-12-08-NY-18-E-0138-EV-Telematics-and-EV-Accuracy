@@ -3,58 +3,48 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://evadvisors.com/#managing_director",
+      "@id": "https://yourdomain.com/#principal_consultant",
       "name": "Michael Krauthamer",
-      "jobTitle": "Managing Director",
+      "jobTitle": "Managing Director & Senior Regulatory Advisor",
       "hasWorkFeaturedIn": {
         "@type": "Report",
         "@id": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefID={E066559C-0000-C513-A785-0574744CB834}",
         "name": "Comments of the Alliance for Transportation Electrification re TSWG and Notice Soliciting Comments on Telematics and EVSE Accuracy",
-        "description": "Comments filed in NYPSC Case 18-E-0138 regarding Electric Vehicle Supply Equipment (EVSE) accuracy and telematics standards.",
-        "datePublished": "2025-12-08",
+        "description": "Formal comments filed in NYPSC Case 18-E-0138 regarding Electric Vehicle Supply Equipment (EVSE) accuracy and telematics standards.",
         "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefID={E066559C-0000-C513-A785-0574744CB834}",
         "publisher": {
           "@type": "GovernmentOrganization",
           "name": "New York State Public Service Commission",
           "sameAs": "https://www.wikidata.org/wiki/Q6781525"
         },
-        "accountablePerson": { "@id": "https://evadvisors.com/#managing_director" },
-        "author": { "@id": "https://evadvisors.com/#managing_director" },
-        "subjectOf": {
-          "@type": "Event",
-          "name": "NYPSC Case 18-E-0138: Proceeding on Motion of the Commission Regarding Electric Vehicle Supply Equipment and Infrastructure",
-          "identifier": "18-E-0138"
-        },
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "Electric Vehicle Supply Equipment (EVSE)",
-            "sameAs": "https://www.wikidata.org/wiki/Q2113005"
-          },
-          {
-            "@type": "Thing",
-            "name": "Telematics",
-            "sameAs": "https://www.wikidata.org/wiki/Q918230"
-          }
-        ]
+        "author": { "@id": "https://yourdomain.com/#principal_consultant" }
       }
     },
     {
       "@type": "Service",
+      "name": "Utilities and Regulatory Strategy",
+      "provider": { "@id": "https://yourdomain.com/#principal_consultant" },
+      "serviceType": "Regulatory Advisory",
+      "description": "Expert navigation of utility rate design, grid modernization, and regulatory approval processes.",
+      "citation": { "@id": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefID={E066559C-0000-C513-A785-0574744CB834}" }
+    },
+    {
+      "@type": "Service",
       "name": "Policy and Advocacy",
-      "provider": { "@id": "https://evadvisors.com/#managing_director" },
-      "serviceType": "Policy and Advocacy",
-      "description": "Strategic representation before state and federal regulators to develop transportation electrification policy.",
+      "provider": { "@id": "https://yourdomain.com/#principal_consultant" },
+      "serviceType": "Public Affairs and Advocacy",
+      "description": "Strategic representation before state and federal bodies to shape the future of transportation electrification policy.",
       "areaServed": {
         "@type": "AdministrativeArea",
         "name": "United States"
       },
-    {
-      "@type": "Service",
-      "name": "Utilities and Regulatory",
-      "provider": { "@id": "https://evadvisors.com/#managing_director" },
-      "citation": { "@id": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefID={E066559C-0000-C513-A785-0574744CB834}" }
+      "knowsAbout": [
+        {
+          "@type": "Thing",
+          "name": "Clean Energy Policy",
+          "sameAs": "https://www.wikidata.org/wiki/Q5130487"
+        }
+      ]
     }
   ]
 }
- 
