@@ -1,1 +1,36 @@
-Placeholder for core identity files
+# EV Advisors: Structured Data & Technical SEO Library
+
+Welcome to the official technical repository for **EV Advisors, LLC**. This library serves as the single source of truth for our firm's structured data (JSON-LD), regulatory compliance frameworks, and industry-standard technical mappings.
+
+## 🏛️ Purpose
+The goal of this repository is to provide a transparent, version-controlled foundation for our digital presence. By hosting our SEO schema and technical references here, we ensure:
+* **Accuracy:** Real-time updates to EV standards.
+* **Authority:** Verification of professional credentials and industry expertise.
+* **Interoperability:** Easy integration for web developers and regulatory partners.
+
+---
+
+## 📂 Repository Structure
+
+* **[`/core/`](./core/)**: Contains core identity files, including Organization and Person schema (Michael I. Krauthamer).
+* **[`/services/`](./services/)**: Detailed structured data for our four primary consulting pillars:
+  * Strategy & Planning
+  * Policy & Advocacy
+  * Utilities & Regulatory Affairs
+  * Implementation & Compliance
+* **[`/technical-data/`](./technical-data/)**: Reference files for EVFS standards, NIST compliance, and telematics accuracy protocols.
+
+---
+
+## 🛠️ Usage for Developers
+If you are implementing this schema on the EV Advisors website:
+1. Navigate to the relevant folder.
+2. Select the `.jsonld` file.
+3. Click the **"Raw"** button to get the clean code for deployment via RankMath or custom headers.
+
+## 🔗 Quick Links
+* **Official Website:** [evadvisors.com](https://evadvisors.com)
+* **LinkedIn:** [Michael I. Krauthamer](https://www.linkedin.com/in/michaelkrauthamer/)
+
+---
+*© 2026 EV Advisors, LLC. All Rights Reserved.*
