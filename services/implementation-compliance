@@ -1,1 +1,48 @@
-Placeholder for implementation & compliance
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Implementation & Compliance",
+  "provider": {
+    "@id": "https://evadvisors.com/#organization"
+  },
+  "description": "Technical oversight and regulatory compliance for EV fueling systems, ensuring accuracy, reliability, and adherence to national standards.",
+  "url": "https://evadvisors.com/utilities-regulatory/",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Implementation & Compliance Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "NIST Handbook 44 & NCWM Compliance",
+          "description": "Expertise in EVFS (Electric Vehicle Fueling Systems) accuracy and weights and measures certification."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Registered Service Agent Oversight",
+          "description": "Qualified advisory for the installation, testing, and maintenance of EVSE per state requirements."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Operational Reliability & Performance Standards",
+          "description": "Developing and auditing uptime requirements and service-level agreements (SLAs) for charging networks."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "EV Telematics & Data Accuracy",
+          "description": "Ensuring the integrity of data streams from vehicle-to-charger and charger-to-cloud interfaces."
+        }
+      }
+    ]
+  }
+}
