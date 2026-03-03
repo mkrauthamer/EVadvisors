@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "OccupationalCredential",
+  "name": "Registered Service Agent (RSA)",
+  "credentialCategory": "Professional License",
+  "description": "Authorized certification for the installation, testing, and repair of Electric Vehicle Fueling Systems (EVFS) in accordance with NIST Handbook 44.",
+  "recognizedBy": {
+    "@type": "Organization",
+    "name": "National Conference on Weights and Measures (NCWM)",
+    "url": "https://www.ncwm.com/"
+  },
+  "abstract": "Compliance oversight for Section 3.40 of NIST Handbook 44, ensuring specifications, tolerances, and technical requirements for EVSE accuracy.",
+  "mainEntityOfPage": {
+    "@type": "CreativeWork",
+    "name": "NIST Handbook 44",
+    "url": "https://www.nist.gov/pml/weights-and-measures/publications/nist-handbooks/handbook-44"
+  }
+}
