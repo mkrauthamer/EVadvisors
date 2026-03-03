@@ -1,1 +1,48 @@
-Placeholder for utilities & regulatory
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Utilities & Regulatory Affairs",
+  "provider": {
+    "@id": "https://evadvisors.com/#organization"
+  },
+  "description": "Specialized advisory for electric utilities and regulators on EV program design, rate structures, and grid integration strategies.",
+  "url": "https://evadvisors.com/utilities-regulatory/",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Utilities & Regulatory Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Utility Program Design & Implementation",
+          "description": "Developing turnkey utility programs for residential, multi-family, and commercial EV charging infrastructure."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "EV Rate Design & Load Management",
+          "description": "Designing innovative rate structures and managed charging programs to optimize grid utilization and reduce costs."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Regulatory Filing & Advocacy Support",
+          "description": "Expert support for Public Service Commission (PSC) filings, testimony, and stakeholder working groups."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Grid Modernization & V2G Integration",
+          "description": "Advising on the integration of Vehicle-to-Grid (V2G) technology and DERs into utility distribution planning."
+        }
+      }
+    ]
+  }
+}
