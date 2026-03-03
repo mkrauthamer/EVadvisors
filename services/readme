@@ -1,1 +1,13 @@
-Placeholder for services
+# 🛠️ Service Pillars
+Structured data for the four core functional areas of our EV consulting practice. Each file is mapped to a specific URL on [evadvisors.com](https://evadvisors.com).
+
+## 🗂️ Pillar Directory
+| Service Pillar | Associated Filename | Focus Area |
+| :--- | :--- | :--- |
+| **Strategy & Planning** | `strategy-planning.jsonld` | Infrastructure Deployment & Utility Programs |
+| **Policy & Advocacy** | `policy-advocacy.jsonld` | Regulatory Support & Advocacy |
+| **Utilities & Regulatory** | `utilities-regulatory.jsonld` | Program Design & Grid Integration |
+| **Implementation & Compliance** | `implementation-compliance.jsonld` | Operational Oversight & NIST Handbook 44 |
+
+## 🚀 Implementation Note
+For best results, these schema blocks should be injected specifically into the `<head>` of their corresponding service pages.
