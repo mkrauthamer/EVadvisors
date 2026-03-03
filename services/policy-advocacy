@@ -1,1 +1,48 @@
-Placeholder for Policy & Advocacy
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Policy & Advocacy",
+  "provider": {
+    "@id": "https://evadvisors.com/#organization"
+  },
+  "description": "Strategic representation and analysis for electric vehicle policy, legislative initiatives, and regulatory proceedings.",
+  "url": "https://evadvisors.com/policy-advocacy/",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Policy & Advocacy Service Pillars",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Regulatory Proceedings & PSC Representation",
+          "description": "Expert witness testimony and strategic guidance for state Public Service Commission filings."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Legislative Analysis & Strategy",
+          "description": "Evaluating and shaping state and federal legislation to support transportation electrification."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Stakeholder Engagement & Coalition Building",
+          "description": "Developing consensus among diverse stakeholders to advance clean energy policy goals."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Market Transformation Policy",
+          "description": "Designing policies that remove barriers to EV adoption and charging infrastructure growth."
+        }
+      }
+    ]
+  }
+}
