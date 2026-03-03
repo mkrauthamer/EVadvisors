@@ -1,1 +1,56 @@
-Placeholder for strategy & planning
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Transportation Electrification Strategy & Planning",
+  "provider": {
+    "@id": "https://evadvisors.com/#organization"
+  },
+  "description": "Comprehensive strategy and deployment planning for the electric vehicle ecosystem, focusing on infrastructure, utility programs, and fleet transitions.",
+  "url": "https://evadvisors.com/strategy-planning/",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Strategy & Planning Service Pillars",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Commercial Charging Infrastructure Deployment",
+          "description": "Full-cycle support for EV charging infrastructure, from inception through implementation."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Utility Program Design & Regulatory Support",
+          "description": "Expertise in designing utility rates and programs that support grid health and EV growth."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Enterprise-Wide Transportation Electrification Planning",
+          "description": "Developing comprehensive roadmaps for organizations to transition to electric mobility."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Fleet Electrification & V2G Strategy",
+          "description": "Specialized planning for medium- and heavy-duty fleet transitions and vehicle-to-grid integration."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Clean Energy Initiatives & Community Choice Aggregation",
+          "description": "Advisory on CCA and clean energy projects that drive sustainable transportation."
+        }
+      }
+    ]
+  }
+}
