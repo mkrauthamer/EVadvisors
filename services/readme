@@ -2,6 +2,7 @@
 Structured data for the four core functional areas of our EV consulting practice. Each file is mapped to a specific URL on [evadvisors.com](https://evadvisors.com).
 
 ## 🗂️ Pillar Directory
+
 | Service Pillar | Associated Filename | Focus Area |
 | :--- | :--- | :--- |
 | **Strategy & Planning** | `strategy-planning.jsonld` | Infrastructure Deployment & Utility Programs |
