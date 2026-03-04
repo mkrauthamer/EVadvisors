@@ -11,13 +11,11 @@
       "@type": "Person",
       "@id": "https://evadvisors.com/#michaelkrauthamer",
       "name": "Michael I. Krauthamer",
-      "additionalName": "I.",
       "alternateName": "Michael I. Krauthamer",
-      "honorificSuffix": "BBA, MPA, MBA, JD",
       "jobTitle": [
-        "Managing Director",
-        "Regulatory Advisor"
+        "Managing Director"
       ],
+      "publications": { "@id": "https://evadvisors.com/#law-review-article" },
       "worksFor": {
         "@id": "https://evadvisors.com/#organization"
       },
@@ -180,6 +178,36 @@
         "description": "Technical verification provided by a Registered Service Agent."
       },
       "subjectOf": { "@id": "https://evadvisors.com/#credential-ncwm" }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://evadvisors.com/#law-review-article",
+      "headline": "Public Interest Research Group vs. Magnesium Elektron, Inc.: Undetectable Injury, a Loophole in Citizen Suit Standing",
+      "author": { "@id": "https://evadvisors.com/#michaelkrauthamer" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Administrative Law Review",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "American Bar Association Section of Administrative Law and Regulatory Practice"
+        }
+      },
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "50",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "issueNumber": "4"
+        }
+      },
+      "datePublished": "1998",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Standing (law)",
+          "sameAs": "https://www.wikidata.org/wiki/Q1130635"
+        }
+      ]
     }
   ]
 }
