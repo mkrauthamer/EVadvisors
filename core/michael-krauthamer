@@ -1,1 +1,171 @@
-Placeholder for Michael Krauthamer file
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://evadvisors.com/#organization",
+      "name": "EV Advisors, LLC",
+      "url": "https://evadvisors.com"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://evadvisors.com/#michaelkrauthamer",
+      "name": "Michael I. Krauthamer",
+      "honorificSuffix": "BBA, MPA, MBA, JD",
+      "jobTitle": [
+        "Managing Director",
+        "Regulatory Advisor"
+      ],
+      "worksFor": {
+        "@id": "https://evadvisors.com/#organization"
+      },
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Regulatory Expert"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Energy Consultant"
+        },
+        {
+          "@type": "Occupation",
+          "name": "EV Charging Consultant"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Attorney"
+        }
+      ],
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "The George Washington University",
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Bachelor of Business Administration (BBA)",
+              "credentialCategory": "degree"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Master of Public Administration (MPA)",
+              "credentialCategory": "degree"
+            }
+          ]
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "American University",
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Juris Doctor (JD)",
+              "credentialCategory": "degree"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Master of Business Administration (MBA)",
+              "credentialCategory": "degree"
+            }
+          ]
+        }
+      ],
+      "memberOf": [
+        { "@type": "Organization", "name": "Supreme Court of the United States (SCOTUS) Bar" },
+        { "@type": "Organization", "name": "Bar of the Court of Appeals of Maryland" },
+        { "@type": "Organization", "name": "District of Columbia Bar" }
+      ],
+{
+      "hasCredential": [
+        {
+          "@type": "OccupationalCredential",
+          "@id": "https://evadvisors.com/#credential-ncwm",
+          "name": "Registered Service Agent for EVFS (EVSE)",
+          "credentialCategory": "Technical Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "National Council on Weights and Measures (NCWM)",
+            "url": "https://www.ncwm.com/"
+          },
+          "description": "Verified legal standing for NIST Handbook 44 compliance, specifically for Electric Vehicle Fueling Systems."
+        },
+        {
+          "@type": "OccupationalCredential",
+          "name": "Licensed Real Estate Broker",
+          "credentialCategory": "Professional License",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Maryland Real Estate Commission",
+            "url": "https://labor.maryland.gov/license/mrec/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://evadvisors.com/implementation-compliance/#service",
+      "name": "Implementation, Operation, and Compliance",
+      "provider": { "@id": "https://evadvisors.com/#organization" },
+      "serviceOutput": {
+        "@type": "Thing",
+        "name": "NIST Handbook 44 Compliance Verification",
+        "description": "Technical verification provided by a Registered Service Agent."
+      },
+      "subjectOf": { "@id": "https://evadvisors.com/#credential-ncwm" }
+    }
+  ]
+}
+{
+          "@type": "Occupation",
+          "name": "Attorney-Advisor",
+          "description": "Served as Attorney-Advisor specializing in energy regulation.",
+          "estimatedSalary": [], 
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Washington, DC"
+          },
+          "worksFor": {
+            "@type": "GovernmentOrganization",
+            "name": "Federal Energy Regulatory Commission (FERC)",
+            "url": "https://www.ferc.gov/"
+          }
+        },
+        {
+          "@type": "Occupation",
+          "name": "Executive Policy Advisor",
+          "description": "Advised on state utility regulation and transportation electrification policy.",
+          "worksFor": {
+            "@type": "GovernmentOrganization",
+            "name": "Maryland Public Service Commission (Md. PSC)",
+            "url": "https://www.psc.state.md.us/"
+          }
+        },
+        {
+          "@type": "Occupation",
+          "name": "Director, EV Network Development",
+          "description": "Led large-scale deployment of public charging infrastructure and commercial charging operations.",
+          "worksFor": [
+            {
+              "@type": "Organization",
+              "name": "NRG Energy",
+              "url": "https://www.nrg.com/"
+            },
+            {
+              "@type": "Organization",
+              "name": "EVgo",
+              "url": "https://www.evgo.com/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+      "sameAs": [
+        "https://www.linkedin.com/in/michaelkrauthamer/"
+      ]
+    }
+  ]
+}
