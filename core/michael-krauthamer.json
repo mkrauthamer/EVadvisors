@@ -8,8 +8,8 @@
       "alternateName": "Michael Krauthamer",
       "jobTitle": [
         "Managing Director",
-        "Regulatory Advisor",
-        "Attorney"
+        "Attorney",
+        "EV Infrastructure Consultant"
       ],
       "worksFor": {
         "@id": "https://evadvisors.com/#organization"
@@ -22,7 +22,7 @@
         {
           "@type": "Occupation",
           "name": "Expert Witness",
-          "description": "Provided testimony, including as an expert witness, in Maryland PSC Case No. 9741 regarding Vehicle-to-Grid (V2G) capabilities and technical implementation of electric school bus infrastructure; proposal approved via Order No. 91571.",
+          "description": "Provided expert witness testimony in Maryland PSC Case No. 9741 regarding Vehicle-to-Grid (V2G) capabilities and technical implementation of electric school bus infrastructure; proposal approved via Order No. 91571.",
           "startDate": "2024",
           "recognizedBy": {
             "@type": "GovernmentOrganization",
@@ -39,7 +39,6 @@
         {
           "@type": "Occupation",
           "name": "Attorney-Advisor",
-          "description": "Energy regulation specialist at the federal level.",
           "worksFor": {
             "@type": "GovernmentOrganization",
             "name": "Federal Energy Regulatory Commission (FERC)",
@@ -49,30 +48,17 @@
         {
           "@type": "Occupation",
           "name": "Executive Policy Advisor",
-          "description": "Advised on wholesale power markets and impact on retail power markets.",
           "worksFor": {
             "@type": "GovernmentOrganization",
             "name": "Maryland Public Service Commission (Md. PSC)",
             "url": "https://www.psc.state.md.us/"
           }
-        },
-        {
-          "@type": "Occupation",
-          "name": "EV Charging Network Development",
-          "description": "Led deployment of public charging infrastructure.",
-          "worksFor": [
-            { "@type": "Organization", "name": "NRG Energy", "url": "https://www.nrg.com/" },
-            { "@type": "Organization", "name": "EVgo", "url": "https://www.evgo.com/" }
-          ]
-        },
-        { "@type": "Occupation", "name": "Regulatory Expert" },
-        { "@type": "Occupation", "name": "Energy Consultant" },
-        { "@type": "Occupation", "name": "EV Charging Consultant" }
+        }
       ],
       "knowsAbout": [
         {
           "@type": "Thing",
-          "name": "Pillar 1: Strategy, Analysis, and Planning",
+          "name": "Pillar 1: Strategy and Planning",
           "description": "Expertise in EV charging infrastructure and network strategy.",
           "sameAs": ["https://www.wikidata.org/wiki/Q2140665", "https://www.wikidata.org/wiki/Q37929123"]
         },
@@ -90,13 +76,10 @@
         },
         {
           "@type": "Thing",
-          "name": "Pillar 4: Implementation, Operation, and Compliance",
+          "name": "Pillar 4: Implementation and Compliance",
           "description": "Technical standards, NIST Handbook 44, and network interoperability.",
           "sameAs": "https://www.wikidata.org/wiki/Q7095973"
-        },
-        "Vehicle-to-Grid (V2G)",
-        "Open Charge Point Protocol (OCPP)",
-        "ISO 15118"
+        }
       ],
       "alumniOf": [
         {
@@ -126,42 +109,41 @@
           "@type": "OccupationalCredential",
           "@id": "https://evadvisors.com/#credential-ncwm",
           "name": "Registered Service Agent for EVFS (EVSE)",
-          "recognizedBy": { "@type": "Organization", "name": "NCWM", "url": "https://www.ncwm.com/" }
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "NCWM",
+            "url": "https://www.ncwm.com/"
+          }
         },
         {
           "@type": "OccupationalCredential",
           "name": "Licensed Real Estate Broker",
-          "recognizedBy": { "@type": "Organization", "name": "Maryland Real Estate Commission" }
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Maryland Real Estate Commission"
+          }
         }
       ],
+
+      
       "performerIn": [
         {
           "@type": "Event",
-          "@id": "https://evadvisors.com/#event-ferry-east-2026",
-          "name": "Third Conference on Zero Emission Ferries – East",
-          "startDate": "2026-03-03",
-          "location": {
-            "@type": "Place",
-            "name": "The Westin Arlington Gateway"
-          },
-          "contributor": {
-            "@type": "Role",
-            "roleName": "Panel Moderator",
-            "description": "From Grid to Terminal, Enabling Ferry Electrification"
-          }
-        },
-        "@type": "Event",
-          "@id": "https://evadvisors.com/#event-gt-nyc-2025",
           "name": "7th Annual Conference on EV Charging Infrastructure US",
           "startDate": "2025-10-21",
-          "location": {
-            "@type": "Place",
-            "name": "New York Marriott Downtown"
-          },
-          "contributor": {
-            "@type": "Role",
-            "roleName": "Panel Moderator",
-            "description": "Accuracy in EV Charging"
+          "location": { "@type": "addressRegion", "name": "New York, New York" },
+          "contributor": { "@type": "Role", "roleName": "Panel Moderator" }
+        },
+
+      
+      "performerIn": [
+        {
+          "@type": "Event",
+          "name": "Third Conference on Zero Emission Ferries – East; From Grid to Terminal: Enabling Ferry Electrification",
+          "startDate": "2026-03-03",
+          "location": { "@type": "addressRegion", "name": "Washington, DC" },
+          "contributor": { "@type": "Role", "roleName": "Panel Moderator" }
+        }
       ],
       "publications": {
         "@id": "https://evadvisors.com/#law-review-article"
