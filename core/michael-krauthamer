@@ -13,7 +13,9 @@
       "name": "Michael I. Krauthamer",
       "alternateName": "Michael Krauthamer",
       "jobTitle": [
-        "Managing Director"
+        "Managing Director",
+        "Attorney",
+        "EV Infrastructure Consultant"
       ],
       "publications": {
         "@id": "https://evadvisors.com/#law-review-article"
@@ -86,8 +88,7 @@
         },
         { "@type": "Occupation", "name": "Regulatory Expert" },
         { "@type": "Occupation", "name": "Energy Consultant" },
-        { "@type": "Occupation", "name": "EV Charging Consultant" },
-        { "@type": "Occupation", "name": "Attorney" }
+        { "@type": "Occupation", "name": "EV Charging Consultant" }
       ],
       "knowsAbout": [
         {
@@ -145,44 +146,6 @@
             { "@type": "EducationalOccupationalCredential", "name": "MBA" }
           ]
         }
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Michael I. Krauthamer",
-  "hasCredential": [
-    {
-      "@type": "OccupationalCredential",
-      "name": "Member of the Bar, Supreme Court of the United States",
-      "credentialCategory": "Legal Licensure",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Supreme Court of the United States",
-        "url": "https://www.supremecourt.gov/"
-      }
-    },
-    {
-      "@type": "OccupationalCredential",
-      "name": "Member of the Bar, State of Maryland",
-      "credentialCategory": "Legal Licensure",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Maryland State Bar Association",
-        "url": "https://www.msba.org/"
-      }
-    },
-    {
-      "@type": "OccupationalCredential",
-      "name": "Member of the Bar, District of Columbia",
-      "credentialCategory": "Legal Licensure",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "District of Columbia Bar",
-        "url": "https://www.dcbar.org/"
-      }
-    }
-  ],
-  "jobTitle": "Attorney & EV Infrastructure Consultant"
-}
       ],
       "memberOf": [
         { "@type": "Organization", "name": "Supreme Court of the United States (SCOTUS) Bar" },
@@ -198,6 +161,36 @@
             "@type": "Organization",
             "name": "NCWM",
             "url": "https://www.ncwm.com/"
+          }
+        },
+        {
+          "@type": "OccupationalCredential",
+          "name": "Member of the Bar, Supreme Court of the United States",
+          "credentialCategory": "Legal Licensure",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Supreme Court of the United States",
+            "url": "https://www.supremecourt.gov/"
+          }
+        },
+        {
+          "@type": "OccupationalCredential",
+          "name": "Member of the Bar, State of Maryland",
+          "credentialCategory": "Legal Licensure",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Maryland State Bar Association",
+            "url": "https://www.msba.org/"
+          }
+        },
+        {
+          "@type": "OccupationalCredential",
+          "name": "Member of the Bar, District of Columbia",
+          "credentialCategory": "Legal Licensure",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "District of Columbia Bar",
+            "url": "https://www.dcbar.org/"
           }
         }
       ],
