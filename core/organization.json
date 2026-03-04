@@ -64,7 +64,7 @@
             "name": "Pillar 3: Utilities and Regulatory",
             "serviceType": "Utility Regulatory Consulting and Energy Policy Advisory",
             "description": "Navigating energy policy and infrastructure standards, including managed charging (V2G/DERs) and community choice aggregation.",
-            "audience": { "@type": "Audience", "name": "Utilities, Municipalities, Manufacturers" },
+            "audience": { "@type": "Audience", "name": "Utilities, Municipalities, State Governments, and EV charging companies" },
             "serviceOutput": "Regulatory Filings, Program Designs, or Approved Policy Frameworks",
             "sameAs": [
               "https://www.wikidata.org/wiki/Q5154673",
