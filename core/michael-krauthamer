@@ -11,6 +11,8 @@
       "@type": "Person",
       "@id": "https://evadvisors.com/#michaelkrauthamer",
       "name": "Michael I. Krauthamer",
+      "additionalName": "I.",
+      "alternateName": "Michael I. Krauthamer",
       "honorificSuffix": "BBA, MPA, MBA, JD",
       "jobTitle": [
         "Managing Director",
@@ -60,21 +62,63 @@
             }
           ]
         },
+        { "@type": "Occupation", "name": "Regulatory Expert" },
+        { "@type": "Occupation", "name": "Energy Consultant" },
+        { "@type": "Occupation", "name": "EV Charging Consultant" },
+        { "@type": "Occupation", "name": "Attorney" }
+      ],
+      "knowsAbout": [
         {
-          "@type": "Occupation",
-          "name": "Regulatory Expert"
+          "@type": "Thing",
+          "name": "Pillar 1: Strategy, Analysis, and Planning",
+          "description": "Expertise in EV charging infrastructure and network strategy.",
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q2140665",
+            "https://en.wikipedia.org/wiki/Charging_station",
+            "https://www.wikidata.org/wiki/Q37929123",
+            "https://en.wikipedia.org/wiki/Electric_vehicle_charging_network"
+          ]
         },
         {
-          "@type": "Occupation",
-          "name": "Energy Consultant"
+          "@type": "Thing",
+          "name": "Pillar 2: Policy and Advocacy",
+          "description": "Advocacy for clean energy policy and community aggregation models.",
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q5154673",
+            "https://en.wikipedia.org/wiki/Community_Choice_Aggregation",
+            "https://www.wikidata.org/wiki/Q11162460",
+            "https://en.wikipedia.org/wiki/Environmental_policy"
+          ]
         },
         {
-          "@type": "Occupation",
-          "name": "EV Charging Consultant"
+          "@type": "Thing",
+          "name": "Pillar 3: Utilities and Regulatory",
+          "description": "Regulatory expertise before State and Federal commissions.",
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q3067862",
+            "https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission",
+            "https://www.wikidata.org/wiki/Q6781417",
+            "https://en.wikipedia.org/wiki/Maryland_Public_Service_Commission",
+            "https://www.wikidata.org/wiki/Q828551",
+            "https://en.wikipedia.org/wiki/Smart_grid",
+            "https://www.wikidata.org/wiki/Q1430932",
+            "https://en.wikipedia.org/wiki/Utility_rate_design"
+          ]
         },
         {
-          "@type": "Occupation",
-          "name": "Attorney"
+          "@type": "Thing",
+          "name": "Pillar 4: Implementation, Operation, and Compliance",
+          "description": "Technical standards and network interoperability for zero-emission fleets.",
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q7095973",
+            "https://en.wikipedia.org/wiki/Open_Charge_Point_Protocol",
+            "https://www.wikidata.org/wiki/Q1654699",
+            "https://en.wikipedia.org/wiki/ISO_15118",
+            "https://www.wikidata.org/wiki/Q1330364",
+            "https://en.wikipedia.org/wiki/Vehicle-to-grid",
+            "https://www.wikidata.org/wiki/Q10568472",
+            "https://en.wikipedia.org/wiki/Fleet_management"
+          ]
         }
       ],
       "alumniOf": [
@@ -82,48 +126,23 @@
           "@type": "CollegeOrUniversity",
           "name": "The George Washington University",
           "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Bachelor of Business Administration (BBA)",
-              "credentialCategory": "degree"
-            },
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Master of Public Administration (MPA)",
-              "credentialCategory": "degree"
-            }
+            { "@type": "EducationalOccupationalCredential", "name": "Bachelor of Business Administration (BBA)", "credentialCategory": "degree" },
+            { "@type": "EducationalOccupationalCredential", "name": "Master of Public Administration (MPA)", "credentialCategory": "degree" }
           ]
         },
         {
           "@type": "CollegeOrUniversity",
           "name": "American University",
           "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Juris Doctor (JD)",
-              "credentialCategory": "degree"
-            },
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Master of Business Administration (MBA)",
-              "credentialCategory": "degree"
-            }
+            { "@type": "EducationalOccupationalCredential", "name": "Juris Doctor (JD)", "credentialCategory": "degree" },
+            { "@type": "EducationalOccupationalCredential", "name": "Master of Business Administration (MBA)", "credentialCategory": "degree" }
           ]
         }
       ],
       "memberOf": [
-        {
-          "@type": "Organization",
-          "name": "Supreme Court of the United States (SCOTUS) Bar"
-        },
-        {
-          "@type": "Organization",
-          "name": "Bar of the Court of Appeals of Maryland"
-        },
-        {
-          "@type": "Organization",
-          "name": "District of Columbia Bar"
-        }
+        { "@type": "Organization", "name": "Supreme Court of the United States (SCOTUS) Bar" },
+        { "@type": "Organization", "name": "Bar of the Court of Appeals of Maryland" },
+        { "@type": "Organization", "name": "District of Columbia Bar" }
       ],
       "hasCredential": [
         {
@@ -136,7 +155,7 @@
             "name": "National Council on Weights and Measures (NCWM)",
             "url": "https://www.ncwm.com/"
           },
-          "description": "Verified legal standing for NIST Handbook 44 compliance, specifically for Electric Vehicle Fueling Systems."
+          "description": "Verified legal standing for NIST Handbook 44 compliance."
         },
         {
           "@type": "OccupationalCredential",
@@ -154,73 +173,13 @@
       "@type": "Service",
       "@id": "https://evadvisors.com/implementation-compliance/#service",
       "name": "Implementation, Operation, and Compliance",
-      "provider": {
-        "@id": "https://evadvisors.com/#organization"
-      },
+      "provider": { "@id": "https://evadvisors.com/#organization" },
       "serviceOutput": {
         "@type": "Thing",
         "name": "NIST Handbook 44 Compliance Verification",
         "description": "Technical verification provided by a Registered Service Agent."
       },
-      "subjectOf": {
-        "@id": "https://evadvisors.com/#credential-ncwm"
-      }
-    }
-  ]
-},
-{
-  "knowsAbout": [
-    {
-      "@type": "Thing",
-      "name": "Pillar 1: Strategy, Analysis, and Planning",
-      "description": "Expertise in EV charging infrastructure and network strategy.",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q2140665",
-        "https://en.wikipedia.org/wiki/Charging_station",
-        "https://www.wikidata.org/wiki/Q37929123",
-        "https://en.wikipedia.org/wiki/Electric_vehicle_charging_network"
-      ]
-    },
-    {
-      "@type": "Thing",
-      "name": "Pillar 2: Policy and Advocacy",
-      "description": "Advocacy for clean energy policy and community aggregation models.",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q5154673",
-        "https://en.wikipedia.org/wiki/Community_Choice_Aggregation",
-        "https://www.wikidata.org/wiki/Q11162460",
-        "https://en.wikipedia.org/wiki/Environmental_policy"
-      ]
-    },
-    {
-      "@type": "Thing",
-      "name": "Pillar 3: Utilities and Regulatory",
-      "description": "Regulatory expertise before State and Federal commissions.",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q3067862",
-        "https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission",
-        "https://www.wikidata.org/wiki/Q6781417",
-        "https://en.wikipedia.org/wiki/Maryland_Public_Service_Commission",
-        "https://www.wikidata.org/wiki/Q828551",
-        "https://en.wikipedia.org/wiki/Smart_grid",
-        "https://www.wikidata.org/wiki/Q1430932",
-        "https://en.wikipedia.org/wiki/Utility_rate_design"
-      ]
-    },
-    {
-      "@type": "Thing",
-      "name": "Pillar 4: Implementation, Operation, and Compliance",
-      "description": "Technical standards and network interoperability for zero-emission fleets.",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q7095973",
-        "https://en.wikipedia.org/wiki/Open_Charge_Point_Protocol",
-        "https://www.wikidata.org/wiki/Q1654699",
-        "https://en.wikipedia.org/wiki/ISO_15118",
-        "https://www.wikidata.org/wiki/Q1330364",
-        "https://en.wikipedia.org/wiki/Vehicle-to-grid",
-        "https://www.wikidata.org/wiki/Q10568472",
-        "https://en.wikipedia.org/wiki/Fleet_management"
-      ]
+      "subjectOf": { "@id": "https://evadvisors.com/#credential-ncwm" }
     }
   ]
 }
