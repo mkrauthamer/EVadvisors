@@ -15,7 +15,9 @@
       "jobTitle": [
         "Managing Director"
       ],
-      "publications": { "@id": "https://evadvisors.com/#law-review-article" },
+      "publications": {
+        "@id": "https://evadvisors.com/#law-review-article"
+      },
       "worksFor": {
         "@id": "https://evadvisors.com/#organization"
       },
@@ -60,10 +62,22 @@
             }
           ]
         },
-        { "@type": "Occupation", "name": "Regulatory Expert" },
-        { "@type": "Occupation", "name": "Energy Consultant" },
-        { "@type": "Occupation", "name": "EV Charging Consultant" },
-        { "@type": "Occupation", "name": "Attorney" }
+        {
+          "@type": "Occupation",
+          "name": "Regulatory Expert"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Energy Consultant"
+        },
+        {
+          "@type": "Occupation",
+          "name": "EV Charging Consultant"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Attorney"
+        }
       ],
       "knowsAbout": [
         {
@@ -124,23 +138,48 @@
           "@type": "CollegeOrUniversity",
           "name": "The George Washington University",
           "hasCredential": [
-            { "@type": "EducationalOccupationalCredential", "name": "Bachelor of Business Administration (BBA)", "credentialCategory": "degree" },
-            { "@type": "EducationalOccupationalCredential", "name": "Master of Public Administration (MPA)", "credentialCategory": "degree" }
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Bachelor of Business Administration (BBA)",
+              "credentialCategory": "degree"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Master of Public Administration (MPA)",
+              "credentialCategory": "degree"
+            }
           ]
         },
         {
           "@type": "CollegeOrUniversity",
           "name": "American University",
           "hasCredential": [
-            { "@type": "EducationalOccupationalCredential", "name": "Juris Doctor (JD)", "credentialCategory": "degree" },
-            { "@type": "EducationalOccupationalCredential", "name": "Master of Business Administration (MBA)", "credentialCategory": "degree" }
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Juris Doctor (JD)",
+              "credentialCategory": "degree"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Master of Business Administration (MBA)",
+              "credentialCategory": "degree"
+            }
           ]
         }
       ],
       "memberOf": [
-        { "@type": "Organization", "name": "Supreme Court of the United States (SCOTUS) Bar" },
-        { "@type": "Organization", "name": "Bar of the Court of Appeals of Maryland" },
-        { "@type": "Organization", "name": "District of Columbia Bar" }
+        {
+          "@type": "Organization",
+          "name": "Supreme Court of the United States (SCOTUS) Bar"
+        },
+        {
+          "@type": "Organization",
+          "name": "Bar of the Court of Appeals of Maryland"
+        },
+        {
+          "@type": "Organization",
+          "name": "District of Columbia Bar"
+        }
       ],
       "hasCredential": [
         {
@@ -171,19 +210,25 @@
       "@type": "Service",
       "@id": "https://evadvisors.com/implementation-compliance/#service",
       "name": "Implementation, Operation, and Compliance",
-      "provider": { "@id": "https://evadvisors.com/#organization" },
+      "provider": {
+        "@id": "https://evadvisors.com/#organization"
+      },
       "serviceOutput": {
         "@type": "Thing",
         "name": "NIST Handbook 44 Compliance Verification",
         "description": "Technical verification provided by a Registered Service Agent."
       },
-      "subjectOf": { "@id": "https://evadvisors.com/#credential-ncwm" }
+      "subjectOf": {
+        "@id": "https://evadvisors.com/#credential-ncwm"
+      }
     },
     {
       "@type": "ScholarlyArticle",
       "@id": "https://evadvisors.com/#law-review-article",
       "headline": "Public Interest Research Group vs. Magnesium Elektron, Inc.: Undetectable Injury, a Loophole in Citizen Suit Standing",
-      "author": { "@id": "https://evadvisors.com/#michaelkrauthamer" },
+      "author": {
+        "@id": "https://evadvisors.com/#michaelkrauthamer"
+      },
       "publisher": {
         "@type": "Organization",
         "name": "Administrative Law Review",
