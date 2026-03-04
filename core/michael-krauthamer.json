@@ -20,10 +20,35 @@
       ],
       "hasOccupation": [
         {
+          "@type": "Role",
+          "name": "Senior Advisor",
+          "description": "Strategic advisory for a coalition of utilities and industry leaders to accelerate EV adoption via policy engagement.",
+          "startDate": "2017",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Alliance for Transportation Electrification (ATE)",
+            "url": "https://ate-ev.org/"
+          }
+        },
+        {
           "@type": "Occupation",
-          "name": "Expert Witness",
+          "name": "EV Infrastructure & Regulatory Consultant",
+          "description": "Providing strategic advisory services for EV charging infrastructure, utility regulation, and clean energy policy compliance.",
+          "startDate": "2017",
+          "occupationLocation": {
+            "@type": "addressRegion",
+            "name": "Washington, DC"
+          },
+          "worksFor": {
+            "@id": "https://evadvisors.com/#organization"
+          }
+        },
+        {
+          "@type": "Role",
+          "roleNname": "Expert Witness",
           "description": "Provided expert witness testimony in Maryland PSC Case No. 9741 regarding Vehicle-to-Grid (V2G) capabilities and technical implementation of electric school bus infrastructure; proposal approved via Order No. 91571.",
           "startDate": "2024",
+          "endDate": "2024",
           "recognizedBy": {
             "@type": "GovernmentOrganization",
             "name": "Maryland Public Service Commission",
@@ -37,8 +62,10 @@
           }
         },
         {
-          "@type": "Occupation",
-          "name": "Attorney-Advisor",
+          "@type": "Role",
+          "roleName": "Attorney-Advisor",
+          "startDate": "2001",
+          "endDate": "2007",
           "worksFor": {
             "@type": "GovernmentOrganization",
             "name": "Federal Energy Regulatory Commission (FERC)",
@@ -46,8 +73,10 @@
           }
         },
         {
-          "@type": "Occupation",
+          "@type": "Role",
           "name": "Executive Policy Advisor",
+          "startDate": "2007",
+          "endDate": "2012",
           "worksFor": {
             "@type": "GovernmentOrganization",
             "name": "Maryland Public Service Commission (Md. PSC)",
@@ -60,19 +89,28 @@
           "@type": "Thing",
           "name": "Pillar 1: Strategy and Planning",
           "description": "Expertise in EV charging infrastructure and network strategy.",
-          "sameAs": ["https://www.wikidata.org/wiki/Q2140665", "https://www.wikidata.org/wiki/Q37929123"]
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q2140665",
+            "https://www.wikidata.org/wiki/Q37929123"
+          ]
         },
         {
           "@type": "Thing",
           "name": "Pillar 2: Policy and Advocacy",
           "description": "Advocacy for clean energy policy and CCAs.",
-          "sameAs": ["https://www.wikidata.org/wiki/Q5154673", "https://en.wikipedia.org/wiki/Community_Choice_Aggregation"]
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q5154673",
+            "https://en.wikipedia.org/wiki/Community_Choice_Aggregation"
+          ]
         },
         {
           "@type": "Thing",
           "name": "Pillar 3: Utilities and Regulatory",
           "description": "Regulatory expertise before State and Federal commissions.",
-          "sameAs": ["https://www.wikidata.org/wiki/Q3067862", "https://www.wikidata.org/wiki/Q6781417"]
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q3067862",
+            "https://www.wikidata.org/wiki/Q6781417"
+          ]
         },
         {
           "@type": "Thing",
@@ -86,23 +124,44 @@
           "@type": "CollegeOrUniversity",
           "name": "The George Washington University",
           "hasCredential": [
-            { "@type": "EducationalOccupationalCredential", "name": "BBA" },
-            { "@type": "EducationalOccupationalCredential", "name": "MPA" }
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "BBA"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "MPA"
+            }
           ]
         },
         {
           "@type": "CollegeOrUniversity",
           "name": "American University",
           "hasCredential": [
-            { "@type": "EducationalOccupationalCredential", "name": "JD" },
-            { "@type": "EducationalOccupationalCredential", "name": "MBA" }
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "JD"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "MBA"
+            }
           ]
         }
       ],
       "memberOf": [
-        { "@type": "Organization", "name": "Supreme Court of the United States (SCOTUS) Bar" },
-        { "@type": "Organization", "name": "Bar of the Court of Appeals of Maryland" },
-        { "@type": "Organization", "name": "District of Columbia Bar" }
+        {
+          "@type": "Organization",
+          "name": "Supreme Court of the United States (SCOTUS) Bar"
+        },
+        {
+          "@type": "Organization",
+          "name": "Bar of the Court of Appeals of Maryland"
+        },
+        {
+          "@type": "Organization",
+          "name": "District of Columbia Bar"
+        }
       ],
       "hasCredential": [
         {
@@ -124,24 +183,33 @@
           }
         }
       ],
-
-      
       "performerIn": [
         {
           "@type": "Event",
           "name": "7th Annual Conference on EV Charging Infrastructure US",
           "startDate": "2025-10-21",
-          "location": { "@type": "addressRegion", "name": "New York, New York" },
-          "contributor": { "@type": "Role", "roleName": "Panel Moderator" }
+          "location": {
+            "@type": "addressRegion",
+            "name": "New York, New York"
+          },
+          "contributor": {
+            "@type": "Role",
+            "roleName": "Panel Moderator"
+          }
         },
-      "performerIn": [
         {
           "@type": "Event",
           "name": "Third Conference on Zero Emission Ferries – East; From Grid to Terminal: Enabling Ferry Electrification",
           "startDate": "2026-03-03",
-          "location": { "@type": "addressRegion", "name": "Washington, DC" },
-          "contributor": { "@type": "Role", "roleName": "Panel Moderator" }
-        },
+          "location": {
+            "@type": "addressRegion",
+            "name": "Washington, DC"
+          },
+          "contributor": {
+            "@type": "Role",
+            "roleName": "Panel Moderator"
+          }
+        }
       ],
       "publications": {
         "@id": "https://evadvisors.com/#law-review-article"
@@ -151,8 +219,13 @@
       "@type": "ScholarlyArticle",
       "@id": "https://evadvisors.com/#law-review-article",
       "headline": "Public Interest Research Group vs. Magnesium Elektron, Inc.: Undetectable Injury, a Loophole in Citizen Suit Standing",
-      "author": { "@id": "https://evadvisors.com/#michaelkrauthamer" },
-      "publisher": { "@type": "Organization", "name": "Administrative Law Review" },
+      "author": {
+        "@id": "https://evadvisors.com/#michaelkrauthamer"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Administrative Law Review"
+      },
       "datePublished": "1998"
     }
   ]
