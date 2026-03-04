@@ -23,7 +23,7 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Legislative Analysis & Strategy",
+          "name": "Regulatory Analysis & Strategy",
           "description": "Evaluating and shaping state and federal legislation to support transportation electrification."
         }
       },
