@@ -47,7 +47,7 @@
         },
         {
           "@type": "Occupation",
-          "name": "Director, EV Network Development",
+          "name": "EV Charging Network Development",
           "description": "Led large-scale deployment of public charging infrastructure and commercial charging operations.",
           "worksFor": [
             {
@@ -62,6 +62,32 @@
             }
           ]
         },
+
+{
+  "@type": "Occupation",
+  "name": "Expert Witness",
+  "description": "Provided direct testimony in Maryland PSC Case No. 9741 regarding Vehicle-to-Grid (V2G) capabilities and technical implementation of electric school bus infrastructure.",
+  "startDate": "2024",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Potomac Edison Company",
+    "url": "https://www.firstenergycorp.com/potomac_edison.html"
+  },
+  "recognizedBy": {
+    "@type": "GovernmentOrganization",
+    "name": "Maryland Public Service Commission",
+    "url": "https://www.psc.state.md.us/"
+  },
+  "subjectOf": {
+    "@type": "CreativeWork",
+    "name": "Case No. 9741: Potomac Edison Company’s Proposal for an Electric School Bus Pilot",
+    "url": "https://webpscxb.pscmaryland.com/DMS/case/9741",
+    "datePublished": "2025-03-21",
+    "description": "Order No. 91571, Order On Potomac Edison's Electric School Bus Pilot"
+  }
+}
+
+
         { "@type": "Occupation", "name": "Regulatory Expert" },
         { "@type": "Occupation", "name": "Energy Consultant" },
         { "@type": "Occupation", "name": "EV Charging Consultant" },
