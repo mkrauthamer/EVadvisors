@@ -11,7 +11,7 @@
       "@type": "Person",
       "@id": "https://evadvisors.com/#michaelkrauthamer",
       "name": "Michael I. Krauthamer",
-      "alternateName": "Michael I. Krauthamer",
+      "alternateName": "Michael Krauthamer",
       "jobTitle": [
         "Managing Director"
       ],
@@ -62,22 +62,10 @@
             }
           ]
         },
-        {
-          "@type": "Occupation",
-          "name": "Regulatory Expert"
-        },
-        {
-          "@type": "Occupation",
-          "name": "Energy Consultant"
-        },
-        {
-          "@type": "Occupation",
-          "name": "EV Charging Consultant"
-        },
-        {
-          "@type": "Occupation",
-          "name": "Attorney"
-        }
+        { "@type": "Occupation", "name": "Regulatory Expert" },
+        { "@type": "Occupation", "name": "Energy Consultant" },
+        { "@type": "Occupation", "name": "EV Charging Consultant" },
+        { "@type": "Occupation", "name": "Attorney" }
       ],
       "knowsAbout": [
         {
@@ -87,19 +75,16 @@
           "sameAs": [
             "https://www.wikidata.org/wiki/Q2140665",
             "https://en.wikipedia.org/wiki/Charging_station",
-            "https://www.wikidata.org/wiki/Q37929123",
-            "https://en.wikipedia.org/wiki/Electric_vehicle_charging_network"
+            "https://www.wikidata.org/wiki/Q37929123"
           ]
         },
         {
           "@type": "Thing",
           "name": "Pillar 2: Policy and Advocacy",
-          "description": "Advocacy for clean energy policy and community aggregation models.",
+          "description": "Advocacy for clean energy policy.",
           "sameAs": [
             "https://www.wikidata.org/wiki/Q5154673",
-            "https://en.wikipedia.org/wiki/Community_Choice_Aggregation",
-            "https://www.wikidata.org/wiki/Q11162460",
-            "https://en.wikipedia.org/wiki/Environmental_policy"
+            "https://en.wikipedia.org/wiki/Community_Choice_Aggregation"
           ]
         },
         {
@@ -108,28 +93,16 @@
           "description": "Regulatory expertise before State and Federal commissions.",
           "sameAs": [
             "https://www.wikidata.org/wiki/Q3067862",
-            "https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission",
-            "https://www.wikidata.org/wiki/Q6781417",
-            "https://en.wikipedia.org/wiki/Maryland_Public_Service_Commission",
-            "https://www.wikidata.org/wiki/Q828551",
-            "https://en.wikipedia.org/wiki/Smart_grid",
-            "https://www.wikidata.org/wiki/Q1430932",
-            "https://en.wikipedia.org/wiki/Utility_rate_design"
+            "https://www.wikidata.org/wiki/Q6781417"
           ]
         },
         {
           "@type": "Thing",
           "name": "Pillar 4: Implementation, Operation, and Compliance",
-          "description": "Technical standards and network interoperability for zero-emission fleets.",
+          "description": "Technical standards and network interoperability.",
           "sameAs": [
             "https://www.wikidata.org/wiki/Q7095973",
-            "https://en.wikipedia.org/wiki/Open_Charge_Point_Protocol",
-            "https://www.wikidata.org/wiki/Q1654699",
-            "https://en.wikipedia.org/wiki/ISO_15118",
-            "https://www.wikidata.org/wiki/Q1330364",
-            "https://en.wikipedia.org/wiki/Vehicle-to-grid",
-            "https://www.wikidata.org/wiki/Q10568472",
-            "https://en.wikipedia.org/wiki/Fleet_management"
+            "https://www.wikidata.org/wiki/Q1654699"
           ]
         }
       ],
@@ -138,70 +111,65 @@
           "@type": "CollegeOrUniversity",
           "name": "The George Washington University",
           "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Bachelor of Business Administration (BBA)",
-              "credentialCategory": "degree"
-            },
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Master of Public Administration (MPA)",
-              "credentialCategory": "degree"
-            }
+            { "@type": "EducationalOccupationalCredential", "name": "BBA" },
+            { "@type": "EducationalOccupationalCredential", "name": "MPA" }
           ]
         },
         {
           "@type": "CollegeOrUniversity",
           "name": "American University",
           "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Juris Doctor (JD)",
-              "credentialCategory": "degree"
-            },
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Master of Business Administration (MBA)",
-              "credentialCategory": "degree"
-            }
+            { "@type": "EducationalOccupationalCredential", "name": "JD" },
+            { "@type": "EducationalOccupationalCredential", "name": "MBA" }
           ]
         }
       ],
       "memberOf": [
-        {
-          "@type": "Organization",
-          "name": "Supreme Court of the United States (SCOTUS) Bar"
-        },
-        {
-          "@type": "Organization",
-          "name": "Bar of the Court of Appeals of Maryland"
-        },
-        {
-          "@type": "Organization",
-          "name": "District of Columbia Bar"
-        }
+        { "@type": "Organization", "name": "Supreme Court of the United States (SCOTUS) Bar" },
+        { "@type": "Organization", "name": "Bar of the Court of Appeals of Maryland" },
+        { "@type": "Organization", "name": "District of Columbia Bar" }
       ],
       "hasCredential": [
         {
           "@type": "OccupationalCredential",
           "@id": "https://evadvisors.com/#credential-ncwm",
           "name": "Registered Service Agent for EVFS (EVSE)",
-          "credentialCategory": "Technical Certification",
           "recognizedBy": {
             "@type": "Organization",
-            "name": "National Council on Weights and Measures (NCWM)",
+            "name": "NCWM",
             "url": "https://www.ncwm.com/"
+          }
+        }
+      ],
+      "performerIn": [
+        {
+          "@type": "Event",
+          "@id": "https://evadvisors.com/#event-ferry-east-2026",
+          "name": "Third Conference on Zero Emission Ferries – East",
+          "startDate": "2026-03-03",
+          "location": {
+            "@type": "Place",
+            "name": "The Westin Arlington Gateway"
           },
-          "description": "Verified legal standing for NIST Handbook 44 compliance."
+          "contributor": {
+            "@type": "Role",
+            "roleName": "Panel Moderator",
+            "description": "From Grid to Terminal, Enabling Ferry Electrification"
+          }
         },
         {
-          "@type": "OccupationalCredential",
-          "name": "Licensed Real Estate Broker",
-          "credentialCategory": "Professional License",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Maryland Real Estate Commission",
-            "url": "https://labor.maryland.gov/license/mrec/"
+          "@type": "Event",
+          "@id": "https://evadvisors.com/#event-gt-nyc-2025",
+          "name": "7th Annual Conference on EV Charging Infrastructure US",
+          "startDate": "2025-10-21",
+          "location": {
+            "@type": "Place",
+            "name": "New York Marriott Downtown"
+          },
+          "contributor": {
+            "@type": "Role",
+            "roleName": "Panel Moderator",
+            "description": "Accuracy in EV Charging"
           }
         }
       ]
@@ -210,105 +178,19 @@
       "@type": "Service",
       "@id": "https://evadvisors.com/implementation-compliance/#service",
       "name": "Implementation, Operation, and Compliance",
-      "provider": {
-        "@id": "https://evadvisors.com/#organization"
-      },
-      "serviceOutput": {
-        "@type": "Thing",
-        "name": "NIST Handbook 44 Compliance Verification",
-        "description": "Technical verification provided by a Registered Service Agent."
-      },
-      "subjectOf": {
-        "@id": "https://evadvisors.com/#credential-ncwm"
-      }
+      "provider": { "@id": "https://evadvisors.com/#organization" },
+      "subjectOf": { "@id": "https://evadvisors.com/#credential-ncwm" }
     },
-"contributorIn": [
-  {
-    "@type": "Event",
-    "@id": "https://evadvisors.com/#event-ferry-east-2026",
-    "name": "Third Conference on Zero Emission Ferries – East",
-    "startDate": "2026-03-03",
-    "endDate": "2026-03-03",
-    "url": "https://web.cvent.com/event/b2f9559b-0c56-4da6-9ca0-5c32e3d89bfa/summary",
-    "location": {
-      "@type": "Place",
-      "name": "The Westin Arlington Gateway",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Arlington",
-        "addressRegion": "VA"
-      }
-    },
-    "organizer": {
-      "@type": "Organization",
-      "name": "Global Mass Transit",
-      "url": "https://globalmasstransit.net/"
-    },
-    "contributor": {
-      "@type": "Role",
-      "roleName": "Panel Moderator",
-      "description": "Moderated the technical panel 'From Grid to Terminal: Enabling Ferry Electrification,' focusing on infrastructure readiness and power procurement for electric vessel operators."
-    }
-  }
-{
-  "@type": "Event",
-  "@id": "https://evadvisors.com/#event-gt-nyc-2025",
-  "name": "7th Annual Conference on EV Charging Infrastructure US",
-  "startDate": "2025-10-21",
-  "endDate": "2025-10-22",
-  "url": "https://web.cvent.com/event/38c916be-13c8-4897-ad65-a88a46aca8a9/summary",
-  "location": {
-    "@type": "Place",
-    "name": "New York Marriott Downtown",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "New York",
-      "addressRegion": "NY"
-    }
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Global Transmission Report",
-    "url": "https://globaltransmission.info/"
-  },
-  "contributor": {
-    "@type": "Role",
-    "roleName": "Panel Moderator",
-    "description": "Moderated the technical panel 'Accuracy in EV Charging,' addressing the application of NIST Handbook 44 and Weights & Measures regulations to EVSE infrastructure."
-  }
-}
-]
     {
       "@type": "ScholarlyArticle",
       "@id": "https://evadvisors.com/#law-review-article",
       "headline": "Public Interest Research Group vs. Magnesium Elektron, Inc.: Undetectable Injury, a Loophole in Citizen Suit Standing",
-      "author": {
-        "@id": "https://evadvisors.com/#michaelkrauthamer"
-      },
+      "author": { "@id": "https://evadvisors.com/#michaelkrauthamer" },
       "publisher": {
         "@type": "Organization",
-        "name": "Administrative Law Review",
-        "parentOrganization": {
-          "@type": "Organization",
-          "name": "American Bar Association Section of Administrative Law and Regulatory Practice"
-        }
+        "name": "Administrative Law Review"
       },
-      "isPartOf": {
-        "@type": "PublicationVolume",
-        "volumeNumber": "50",
-        "isPartOf": {
-          "@type": "PublicationIssue",
-          "issueNumber": "4"
-        }
-      },
-      "datePublished": "1998",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Standing (law)",
-          "sameAs": "https://www.wikidata.org/wiki/Q1130635"
-        }
-      ]
+      "datePublished": "1998"
     }
   ]
 }
