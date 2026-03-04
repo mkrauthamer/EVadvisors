@@ -222,6 +222,62 @@
         "@id": "https://evadvisors.com/#credential-ncwm"
       }
     },
+"contributorIn": [
+  {
+    "@type": "Event",
+    "@id": "https://evadvisors.com/#event-ferry-east-2026",
+    "name": "Third Conference on Zero Emission Ferries – East",
+    "startDate": "2026-03-03",
+    "endDate": "2026-03-03",
+    "url": "https://web.cvent.com/event/b2f9559b-0c56-4da6-9ca0-5c32e3d89bfa/summary",
+    "location": {
+      "@type": "Place",
+      "name": "The Westin Arlington Gateway",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Arlington",
+        "addressRegion": "VA"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Global Mass Transit",
+      "url": "https://globalmasstransit.net/"
+    },
+    "contributor": {
+      "@type": "Role",
+      "roleName": "Panel Moderator",
+      "description": "Moderated the technical panel 'From Grid to Terminal: Enabling Ferry Electrification,' focusing on infrastructure readiness and power procurement for electric vessel operators."
+    }
+  }
+{
+  "@type": "Event",
+  "@id": "https://evadvisors.com/#event-gt-nyc-2025",
+  "name": "7th Annual Conference on EV Charging Infrastructure US",
+  "startDate": "2025-10-21",
+  "endDate": "2025-10-22",
+  "url": "https://web.cvent.com/event/38c916be-13c8-4897-ad65-a88a46aca8a9/summary",
+  "location": {
+    "@type": "Place",
+    "name": "New York Marriott Downtown",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York",
+      "addressRegion": "NY"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Global Transmission Report",
+    "url": "https://globaltransmission.info/"
+  },
+  "contributor": {
+    "@type": "Role",
+    "roleName": "Panel Moderator",
+    "description": "Moderated the technical panel 'Accuracy in EV Charging,' addressing the application of NIST Handbook 44 and Weights & Measures regulations to EVSE infrastructure."
+  }
+}
+]
     {
       "@type": "ScholarlyArticle",
       "@id": "https://evadvisors.com/#law-review-article",
