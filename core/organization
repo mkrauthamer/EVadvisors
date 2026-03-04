@@ -1,1 +1,88 @@
-Placeholder for organization file
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ConsultingBusiness",
+      "@id": "https://evadvisors.com/#organization",
+      "name": "EV Advisors",
+      "legalName": "EV Advisors, LLC",
+      "url": "https://evadvisors.com",
+      "logo": "https://evadvisors.com/logo.png",
+      "foundingDate": "2017",
+      "duns": "08-106-9906",
+      "naics": "541690",
+      "description": "EV Advisors, LLC is a nationally recognized leader in electric vehicle charging infrastructure, supporting innovators from inception through implementation across the EV ecosystem.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bethesda",
+        "addressRegion": "MD",
+        "postalCode": "20814",
+        "addressCountry": "US"
+      },
+      "areaServed": "North America",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "url": "https://evadvisors.com/contact/",
+        "telephone": "+1-240-242-9042"
+      },
+      "founder": {
+        "@id": "https://evadvisors.com/#michaelkrauthamer"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/ev-advisors-llc/"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Pillars",
+        "itemListElement": [
+          {
+            "@type": "Service",
+            "name": "Pillar 1: Strategy and Planning",
+            "serviceType": "Transportation Electrification Strategic Planning",
+            "description": "Comprehensive roadmaps for transportation electrification, EV charging infrastructure, clean energy, and community choice energy aggregation.",
+            "audience": { "@type": "Audience", "name": "EVSP, Utilities, CPOs, Fleet Operators, Investors" },
+            "serviceOutput": "Strategic Electrification Roadmap or Business Transition Plan",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q2140665",
+              "https://www.wikidata.org/wiki/Q37929123"
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Pillar 2: Policy and Advocacy",
+            "serviceType": "Regulatory Advocacy and Clean Energy Policy Support",
+            "description": "Representation before state Public Service Commissions and other regulators to align charging and energy initiatives.",
+            "audience": { "@type": "Audience", "name": "Electric utilities and EV charging industry participants" },
+            "serviceOutput": "Regulatory Approvals and Regulatory Advocacy Roadmaps",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q5154673",
+              "https://www.wikidata.org/wiki/Q6781417"
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Pillar 3: Utilities and Regulatory",
+            "serviceType": "Utility Regulatory Consulting and Energy Policy Advisory",
+            "description": "Navigating energy policy and infrastructure standards, including managed charging (V2G/DERs) and community choice aggregation.",
+            "audience": { "@type": "Audience", "name": "Utilities, Municipalities, Manufacturers" },
+            "serviceOutput": "Regulatory Filings, Program Designs, or Approved Policy Frameworks",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q5154673",
+              "https://www.wikidata.org/wiki/Q6781417"
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Pillar 4: Implementation and Compliance",
+            "serviceType": "EV Infrastructure Operational Advisory and Compliance Management",
+            "description": "Deployment oversight for EV infrastructure focusing on vendor vetting and NIST Handbook 44 compliance.",
+            "audience": { "@type": "Audience", "name": "Public/private entities and utilities" },
+            "serviceOutput": "Operational Reliability Framework or Handbook 44 Compliance Review",
+            "sameAs": "https://www.wikidata.org/wiki/Q2140665"
+          }
+        ]
+      }
+    }
+  ]
+}
