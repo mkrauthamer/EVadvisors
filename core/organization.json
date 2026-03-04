@@ -14,9 +14,8 @@
       "description": "EV Advisors, LLC is a nationally recognized leader in electric vehicle charging infrastructure, supporting innovators from inception through implementation across the EV ecosystem.",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Bethesda",
-        "addressRegion": "MD",
-        "postalCode": "20814",
+        "addressLocality": "Washington",
+        "addressRegion": "DC",
         "addressCountry": "US"
       },
       "areaServed": "North America",
