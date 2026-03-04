@@ -2,35 +2,44 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": "https://evadvisors.com/#organization",
-      "name": "EV Advisors, LLC",
-      "url": "https://evadvisors.com"
-    },
-    {
       "@type": "Person",
       "@id": "https://evadvisors.com/#michaelkrauthamer",
       "name": "Michael I. Krauthamer",
       "alternateName": "Michael Krauthamer",
       "jobTitle": [
         "Managing Director",
-        "Attorney",
-        "EV Infrastructure Consultant"
+        "Regulatory Advisor",
+        "Attorney"
       ],
-      "publications": {
-        "@id": "https://evadvisors.com/#law-review-article"
-      },
       "worksFor": {
         "@id": "https://evadvisors.com/#organization"
       },
       "sameAs": [
-        "https://www.linkedin.com/in/michaelkrauthamer/"
+        "https://www.linkedin.com/in/michaelkrauthamer/",
+        "https://github.com/mkrauthamer"
       ],
       "hasOccupation": [
         {
           "@type": "Occupation",
+          "name": "Expert Witness",
+          "description": "Provided testimony, including as an expert witness, in Maryland PSC Case No. 9741 regarding Vehicle-to-Grid (V2G) capabilities and technical implementation of electric school bus infrastructure; proposal approved via Order No. 91571.",
+          "startDate": "2024",
+          "recognizedBy": {
+            "@type": "GovernmentOrganization",
+            "name": "Maryland Public Service Commission",
+            "url": "https://www.psc.state.md.us/"
+          },
+          "subjectOf": {
+            "@type": "CreativeWork",
+            "name": "Maryland PSC Case No. 9741",
+            "url": "https://webpscxb.pscmaryland.com/DMS/case/9741",
+            "datePublished": "2025-03-21"
+          }
+        },
+        {
+          "@type": "Occupation",
           "name": "Attorney-Advisor",
-          "description": "Served as Attorney-Advisor specializing in energy regulation.",
+          "description": "Energy regulation specialist at the federal level.",
           "worksFor": {
             "@type": "GovernmentOrganization",
             "name": "Federal Energy Regulatory Commission (FERC)",
@@ -40,7 +49,7 @@
         {
           "@type": "Occupation",
           "name": "Executive Policy Advisor",
-          "description": "Advised on state utility regulation and transportation electrification policy.",
+          "description": "Advised on wholesale power markets and impact on retail power markets.",
           "worksFor": {
             "@type": "GovernmentOrganization",
             "name": "Maryland Public Service Commission (Md. PSC)",
@@ -50,41 +59,11 @@
         {
           "@type": "Occupation",
           "name": "EV Charging Network Development",
-          "description": "Led large-scale deployment of public charging infrastructure and commercial charging operations.",
+          "description": "Led deployment of public charging infrastructure.",
           "worksFor": [
-            {
-              "@type": "Organization",
-              "name": "NRG Energy",
-              "url": "https://www.nrg.com/"
-            },
-            {
-              "@type": "Organization",
-              "name": "EVgo",
-              "url": "https://www.evgo.com/"
-            }
+            { "@type": "Organization", "name": "NRG Energy", "url": "https://www.nrg.com/" },
+            { "@type": "Organization", "name": "EVgo", "url": "https://www.evgo.com/" }
           ]
-        },
-        {
-          "@type": "Occupation",
-          "name": "Expert Witness",
-          "description": "Provided testimony in Maryland PSC Case No. 9741 regarding Vehicle-to-Grid (V2G) capabilities and technical implementation of electric school bus infrastructure.",
-          "startDate": "2024",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "Potomac Edison Company",
-            "url": "https://www.firstenergycorp.com/potomac_edison.html"
-          },
-          "recognizedBy": {
-            "@type": "GovernmentOrganization",
-            "name": "Maryland Public Service Commission",
-            "url": "https://www.psc.state.md.us/"
-          },
-          "subjectOf": {
-            "@type": "CreativeWork",
-            "name": "Order No. 91571: Order On Potomac Edison's Electric School Bus Pilot",
-            "url": "https://webpscxb.pscmaryland.com/DMS/case/9741",
-            "datePublished": "2025-03-21"
-          }
         },
         { "@type": "Occupation", "name": "Regulatory Expert" },
         { "@type": "Occupation", "name": "Energy Consultant" },
@@ -95,39 +74,29 @@
           "@type": "Thing",
           "name": "Pillar 1: Strategy, Analysis, and Planning",
           "description": "Expertise in EV charging infrastructure and network strategy.",
-          "sameAs": [
-            "https://www.wikidata.org/wiki/Q2140665",
-            "https://en.wikipedia.org/wiki/Charging_station",
-            "https://www.wikidata.org/wiki/Q37929123"
-          ]
+          "sameAs": ["https://www.wikidata.org/wiki/Q2140665", "https://www.wikidata.org/wiki/Q37929123"]
         },
         {
           "@type": "Thing",
           "name": "Pillar 2: Policy and Advocacy",
-          "description": "Advocacy for clean energy policy.",
-          "sameAs": [
-            "https://www.wikidata.org/wiki/Q5154673",
-            "https://en.wikipedia.org/wiki/Community_Choice_Aggregation"
-          ]
+          "description": "Advocacy for clean energy policy and CCAs.",
+          "sameAs": ["https://www.wikidata.org/wiki/Q5154673", "https://en.wikipedia.org/wiki/Community_Choice_Aggregation"]
         },
         {
           "@type": "Thing",
           "name": "Pillar 3: Utilities and Regulatory",
           "description": "Regulatory expertise before State and Federal commissions.",
-          "sameAs": [
-            "https://www.wikidata.org/wiki/Q3067862",
-            "https://www.wikidata.org/wiki/Q6781417"
-          ]
+          "sameAs": ["https://www.wikidata.org/wiki/Q3067862", "https://www.wikidata.org/wiki/Q6781417"]
         },
         {
           "@type": "Thing",
           "name": "Pillar 4: Implementation, Operation, and Compliance",
-          "description": "Technical standards and network interoperability.",
-          "sameAs": [
-            "https://www.wikidata.org/wiki/Q7095973",
-            "https://www.wikidata.org/wiki/Q1654699"
-          ]
-        }
+          "description": "Technical standards, NIST Handbook 44, and network interoperability.",
+          "sameAs": "https://www.wikidata.org/wiki/Q7095973"
+        },
+        "Vehicle-to-Grid (V2G)",
+        "Open Charge Point Protocol (OCPP)",
+        "ISO 15118"
       ],
       "alumniOf": [
         {
@@ -157,41 +126,12 @@
           "@type": "OccupationalCredential",
           "@id": "https://evadvisors.com/#credential-ncwm",
           "name": "Registered Service Agent for EVFS (EVSE)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "NCWM",
-            "url": "https://www.ncwm.com/"
-          }
+          "recognizedBy": { "@type": "Organization", "name": "NCWM", "url": "https://www.ncwm.com/" }
         },
         {
           "@type": "OccupationalCredential",
-          "name": "Member of the Bar, Supreme Court of the United States",
-          "credentialCategory": "Legal Licensure",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Supreme Court of the United States",
-            "url": "https://www.supremecourt.gov/"
-          }
-        },
-        {
-          "@type": "OccupationalCredential",
-          "name": "Member of the Bar, State of Maryland",
-          "credentialCategory": "Legal Licensure",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Maryland State Bar Association",
-            "url": "https://www.msba.org/"
-          }
-        },
-        {
-          "@type": "OccupationalCredential",
-          "name": "Member of the Bar, District of Columbia",
-          "credentialCategory": "Legal Licensure",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "District of Columbia Bar",
-            "url": "https://www.dcbar.org/"
-          }
+          "name": "Licensed Real Estate Broker",
+          "recognizedBy": { "@type": "Organization", "name": "Maryland Real Estate Commission" }
         }
       ],
       "performerIn": [
@@ -210,8 +150,7 @@
             "description": "From Grid to Terminal, Enabling Ferry Electrification"
           }
         },
-        {
-          "@type": "Event",
+        "@type": "Event",
           "@id": "https://evadvisors.com/#event-gt-nyc-2025",
           "name": "7th Annual Conference on EV Charging Infrastructure US",
           "startDate": "2025-10-21",
@@ -223,26 +162,17 @@
             "@type": "Role",
             "roleName": "Panel Moderator",
             "description": "Accuracy in EV Charging"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://evadvisors.com/implementation-compliance/#service",
-      "name": "Implementation, Operation, and Compliance",
-      "provider": { "@id": "https://evadvisors.com/#organization" },
-      "subjectOf": { "@id": "https://evadvisors.com/#credential-ncwm" }
+      ],
+      "publications": {
+        "@id": "https://evadvisors.com/#law-review-article"
+      }
     },
     {
       "@type": "ScholarlyArticle",
       "@id": "https://evadvisors.com/#law-review-article",
       "headline": "Public Interest Research Group vs. Magnesium Elektron, Inc.: Undetectable Injury, a Loophole in Citizen Suit Standing",
       "author": { "@id": "https://evadvisors.com/#michaelkrauthamer" },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Administrative Law Review"
-      },
+      "publisher": { "@type": "Organization", "name": "Administrative Law Review" },
       "datePublished": "1998"
     }
   ]
